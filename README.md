@@ -1,5 +1,5 @@
 # Discord Nitro Purchaser
-  Clean No Rats / Virus's Enjoy, Selling SRC DM Me ;)
+  Dont Skid All I Want Is Credits :cry:
   
   <img align="center" src="https://i.imgur.com/SRnNKm7.png" alt="Wowe" />
 
