@@ -118,7 +118,7 @@ def NitroPurchaser(token):
             r = requests.post(f'https://discord.com/api/v6/store/skus/{buynitro}/purchase', headers={'Authorization': token}, json={'expected_amount': amount,'gift': True,'payment_source_id': payment_source_id})   
             print(r.text)
             gift_code = r.json()['gift_code']
-            print(f'{Fore.RESET}[{Fore.GREEN}{strftime("%H:%M:%S", gmtime())}{Fore.RESET}] discord.gift/{gift}        {b+Fore.GREEN}|{Fore.RESET} {token}')
+            print(f'{Fore.RESET}[{Fore.GREEN}{strftime("%H:%M:%S", gmtime())}{Fore.RESET}] discord.gift/{gift_code}        {b+Fore.GREEN}|{Fore.RESET} {token}')
             checked += 1
             purchased += 1
             ctypes.windll.kernel32.SetConsoleTitleW(f'[Discord Nitro Purchaser] By Dropout | Type: {showtype} | Checked: {checked}/{tokens_count} | Purchased: {purchased}')
