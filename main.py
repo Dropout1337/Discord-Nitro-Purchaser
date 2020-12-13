@@ -7,7 +7,6 @@ from time import gmtime, sleep, strftime
 import keyboard
 import requests
 from colorama import Fore, Style
-from dhooks import Embed, File, Webhook # I Forgot What I Used This For, I Think I Removed It
 
 if not os.path.exists(f'Tokens.txt'):
     with open('Tokens.txt', 'w') as f: pass
